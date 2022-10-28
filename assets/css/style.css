@@ -1,0 +1,72 @@
+/*$ ************* Custom Properties - Variables  ************* */
+
+:root {
+  --first-color: #5d0ca7;
+  --second-color: #000;
+  --text-color: #000;
+  --second-text-color: #5d0ca7;
+  --link-color: #639cd9;
+  --white-color: #f5f6fa;
+  --black-color: #000;
+  --step-1: clamp(0.61rem, calc(0.64rem + -0.03vw), 0.63rem);
+  --step-2: clamp(0.76rem, calc(0.76rem + 0.02vw), 0.77rem);
+  --step-3: clamp(0.91rem, calc(0.89rem + 0.09vw), 0.96rem);
+  --step-4: clamp(1.09rem, calc(1.06rem + 0.19vw), 1.2rem);
+  --step-5: clamp(1.31rem, calc(1.24rem + 0.34vw), 1.5rem);
+  --step-6: clamp(1.58rem, calc(1.47rem + 0.55vw), 1.88rem);
+  --step-7: clamp(1.89rem, calc(1.73rem + 0.83vw), 2.34rem);
+  --step-8: clamp(2.27rem, calc(2.03rem + 1.2vw), 2.93rem);
+  --step-9: clamp(2.72rem, calc(2.38rem + 1.71vw), 3.66rem);
+  --step-10: clamp(3.27rem, calc(2.79rem + 2.39vw), 4.58rem);
+  --font: "Inter", sans-serif;
+  --font-2: "Fuzzy Bubbles", cursive;
+  --max-width: 80rem;
+  --header-heigh: ;
+  --border: thin solid var(--black-color);
+  --dark-mode-border: thin solid var(--first-color);
+}
+
+/*$ ************* Reset - Reseteo de Código  ************* */
+
+html {
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*$ ************* Utilities - Estilos que sólo modifican un atributo  ************* */
+
+/*? Clases */
+
+/*! Estilo de Texto */
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+/*$ ************* Components - Estilos predefinidos para un elemento ************* */
+
+.max-width-container {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*$ ************* Site Styles - Estilos de un sitio específico ************* */
